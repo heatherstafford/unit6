@@ -7,7 +7,7 @@ file = open('engmix.txt')
 numWords = 0
 
 for line in file:
-    if 'smed' in word:
+    if 'smed' in line:
         print(word)
     numWords += 1
     
