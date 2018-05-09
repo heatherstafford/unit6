@@ -2,5 +2,9 @@
 #5/9/18
 #fileDemo.py - how to read a file
 
-open('engmix.txt')
+file = open('engmix.txt')
+
+for line in file:
+    print(line)
+    Break
 
