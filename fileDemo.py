@@ -4,7 +4,9 @@
 
 file = open('engmix.txt')
 
-for line in file:
-    print(line)
-    break
+numWord = 0
 
+for line in file:
+    numWord += 1
+    
+print(numWords)
