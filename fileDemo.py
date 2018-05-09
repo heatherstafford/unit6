@@ -8,7 +8,7 @@ numWords = 0
 
 for line in file:
     if 'smed' in line:
-        print(word)
+        print(line)
     numWords += 1
     
 print(numWords)
