@@ -4,7 +4,9 @@
 
 file = open('engmix.txt')
 
-L = [0]*20
+L = [0]*22
 
 for line in file:
-    if len(line) > 
+    L[len(line)-1] + 1
+
+print(L)
