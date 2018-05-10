@@ -10,4 +10,4 @@ for line in file:
     L[len(line.strip())-1] += 1
     
 for i in range(0,23):
-    print(i,'letter words:', L[i])
+    print(i,'letter words:', L[i + 1])
