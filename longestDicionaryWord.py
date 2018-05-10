@@ -11,4 +11,4 @@ for item in file:
     if len(item) > longest:
         longest = len(item)
         word = item
-print('The longest word is', word)
+print(word)
