@@ -7,7 +7,7 @@ file = open('engmix.txt')
 longest = 0
 word = ' '
 
-for item in words:
+for item in file:
     if len(item) > longest:
         longest = len(item)
         word = item
