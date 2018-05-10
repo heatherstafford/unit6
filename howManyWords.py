@@ -4,9 +4,9 @@
 
 file = open('engmix.txt')
 
-L = [0]*22
+L = [0]*23
 
 for line in file:
     L[len(line)-1] += 1
 
-print(')
+print(L)
