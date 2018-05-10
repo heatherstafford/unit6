@@ -9,4 +9,4 @@ L = [0]*22
 for line in file:
     L[len(line)-1] += 1
 
-print(L)
+print(')
