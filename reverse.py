@@ -7,8 +7,8 @@ file = open('engmix.txt')
 L = []
 
 for line in file:
-    new.append(line)
+    L.append(line)
     
-new.reverse()
+L.reverse()
 
-print(new)
+print(L)
