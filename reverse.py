@@ -2,7 +2,7 @@
 #5/11/18
 #reverse.py
 
-file = open('engmix.txt')
+file = open('howManyWords.py')
 
 L = []
 
