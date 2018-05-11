@@ -5,6 +5,6 @@
 file = open('engmix.txt')
 
 for line in file:
-    if 's' in line and 's' in line:
-        print(line.strip())
-
+    word = line.strip()
+    if len(word)>0 and word[0] == 'h' and word[-1] == 's':
+        print(word)
