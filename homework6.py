@@ -18,8 +18,14 @@ print('The word', result, 'in the dictionary')
 
 file = open('engmix.txt')
 
-L = file.
+L = []
+
+for line in file:
+    L.append(line.strip())
 
 num = input('Enter a number: ')
 
-print(L[num-1]
+if num<= 0 or num >= len(words)+1:
+    print('Invalid number')
+else:
+    print(words[num - 1])
