@@ -30,3 +30,7 @@ if num<= 0 or num >= len(L)+1:
 else:
     print(L[num - 1])
 """
+
+file = open('fileDemo.py')
+
+print(file)
