@@ -1,4 +1,6 @@
-
+#Heather Stafford
+#5/14/18
+#homework6.py - how to struggle
 
 file = open('engmix.txt')
 
