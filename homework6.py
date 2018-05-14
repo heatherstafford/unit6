@@ -14,7 +14,7 @@ for line in file:
         result = 'is'
         
 print('The word', result, 'in the dictionary')
-"""
+
 
 file = open('engmix.txt')
 
@@ -29,3 +29,4 @@ if num<= 0 or num >= len(L)+1:
     print('Invalid number')
 else:
     print(L[num - 1])
+"""
