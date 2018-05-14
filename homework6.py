@@ -18,8 +18,8 @@ print('The word', result, 'in the dictionary')
 
 file = open('engmix.txt')
 
-L = file
+L = file.
 
 num = input('Enter a number: ')
 
-print(L[num]
+print(L[num-1]
