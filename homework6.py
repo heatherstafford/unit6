@@ -41,10 +41,16 @@ file = open('engmix.txt')
 
 letter = input('Enter a letter: ')
 
+word = ' ' 
 numberletters = 0
 
 for line in file:
-    numberletters = line.count(letter)
+    number = line.count(letter)
+    if number > numberletters:
+        numberletters += number
+        word = line
+        
+print(word)
     
     
 
