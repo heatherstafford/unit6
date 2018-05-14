@@ -33,4 +33,9 @@ else:
 
 file = open('fileDemo.py')
 
-print(file)
+for line in file:
+    print(line.strip() + '!')
+    
+    
+    
+    
