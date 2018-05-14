@@ -29,13 +29,26 @@ if num<= 0 or num >= len(L)+1:
     print('Invalid number')
 else:
     print(L[num - 1])
-"""
+
 
 file = open('fileDemo.py')
 
 for line in file:
     print(line.strip() + '!')
+"""
     
+file = open('engmix.txt')
+
+letter = input('Enter a letter: ')
+
+numberletters = 0
+
+for line in file:
+    numberletters = line.count(letter)
+    
+    
+
+
     
     
     
