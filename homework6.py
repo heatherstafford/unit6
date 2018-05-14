@@ -23,7 +23,7 @@ L = []
 for line in file:
     L.append(line.strip())
 
-num = input('Enter a number: ')
+num = int(input('Enter a number: '))
 
 if num<= 0 or num >= len(L)+1:
     print('Invalid number')
