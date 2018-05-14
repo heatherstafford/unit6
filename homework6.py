@@ -25,7 +25,7 @@ for line in file:
 
 num = input('Enter a number: ')
 
-if num<= 0 or num >= len(words)+1:
+if num<= 0 or num >= len(L)+1:
     print('Invalid number')
 else:
-    print(words[num - 1])
+    print(L[num - 1])
