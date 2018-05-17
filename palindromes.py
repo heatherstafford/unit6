@@ -4,12 +4,11 @@
 
 file = open('engmix.txt')
 
-new = ''
-
 for line in file:
+    new = ''
     word = line.strip()
     for ch in word:
         new = ch + new
     if new == word:
-        print(line.strip())
+        print(word)
     
