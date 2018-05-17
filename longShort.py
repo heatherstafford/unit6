@@ -12,7 +12,7 @@ shortest = []
 for ch in alph:
     for line in file:
         L = L.append(line)
-        if L[0] = 
+        if L[0] = ch
         
     
     
