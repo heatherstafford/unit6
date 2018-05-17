@@ -5,10 +5,11 @@
 file = open('engmix.txt')
 
 new = ''
-L = []
 
 for line in file:
-    L.append(line)
-    new = L.reverse
-    if line == new:
-        print(line)
+    word = line.strip()
+    for ch in word:
+        new = ch + new
+    if new == word:
+        print(line.strip)
+    
