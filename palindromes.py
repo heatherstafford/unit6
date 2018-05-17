@@ -11,5 +11,5 @@ for line in file:
     for ch in word:
         new = ch + new
     if new == word:
-        print(line.strip)
+        print(line.strip())
     
