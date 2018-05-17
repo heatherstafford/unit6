@@ -5,10 +5,14 @@
 file = open('engmix.txt')
 
 alph = 'abcdefghijklmnopqrstuvwxyz'
-longest = ''
-shortest = ''
+L = []
+longest = []
+shortest = []
 
-for line in file:
-    
+for ch in alph:
+    for line in file:
+        L = L.append(line)
+        if L[0] = 
+        
     
     
