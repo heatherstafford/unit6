@@ -32,6 +32,6 @@ for line in file:
     if len(line) == num:
         L.append(line)
 
-print(randint((0, len(L)+1))
+print(L[randint((0, len(L)+1)])
         
         
