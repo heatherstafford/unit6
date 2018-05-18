@@ -14,6 +14,7 @@ for line in file:
 
 #program 2
 for line in file:
+    num = 0
     if line[0] = r:
-        print(line)
+    num += 1
     
