@@ -14,7 +14,11 @@ for line in file:
 
 #program 2
 for line in file:
+    word = line.strip()
     num = 0
-    if line[0] = r:
-    num += 1
+    if len(word) > 0:
+        if word[0] = 'r':
+        num += 1
+
+print(num)
     
