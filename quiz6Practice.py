@@ -13,11 +13,10 @@ for line in file:
         print(word)
 
 #program 2
+num = 0
+
 for line in file:
-    word = line.strip()
-    num = 0
-    if len(word) > 0:
-        if word[0] = 'r':
+    if len(word) > 0 and word[0] == 'r':
         num += 1
 
 print(num)
