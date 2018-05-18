@@ -16,8 +16,22 @@ for line in file:
 num = 0
 
 for line in file:
-    if len(word) > 0 and word[0] == 'r':
+    if len(line) > 0 and line[0] == 'r':
         num += 1
 
 print(num)
     
+#program 3
+from random import randint
+
+num = int(input('Enter a number: '))
+
+L =[]
+
+for line in file:
+    if len(line) == num:
+        L.append(line)
+
+print(randint((0, len(L)+1))
+        
+        
