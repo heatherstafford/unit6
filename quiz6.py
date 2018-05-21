@@ -34,7 +34,7 @@ for line in file:
     ovowel = line.count('o')
     uvowel = line.count('u')
     newvowels = avowel + evowel + ivowel + ovowel + uvowel
-    if newvowels > vowelnumbers:
+    if newvowels > vowelnumber:
         vowelnumber += newvowels
         word = line
 print(word)
