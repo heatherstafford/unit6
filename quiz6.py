@@ -17,7 +17,7 @@ for line in file:
 for line in file:
     if len(line) >= 9:
         if line[0] == line[4] and line[0] == line[8]:
-            print(line)
+            print(line.strip())
 """
 #Program #3
 number3 = int(input('Enter a number: '))
