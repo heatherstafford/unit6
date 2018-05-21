@@ -15,11 +15,11 @@ for line in file:
 """
     
 #Program #3
-number3 = input('Enter a number: ')
+number3 = int(input('Enter a number: '))
 letter3 = input('Enter a letter: ')
 
 for line in file:
     word = line.strip()
     if len(word)>0:
         if word[0] == letter3 and len(word) == number3:
-            print(line)
+            print(word)
