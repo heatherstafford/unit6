@@ -20,5 +20,6 @@ letter3 = input('Enter a letter: ')
 
 for line in file:
     word = line.strip()
-    if word[0] == letter3 and len(word) == number3:
-        print(line)
+    if len(word)>0:
+        if word[0] == letter3 and len(word) == number3:
+            print(line)
