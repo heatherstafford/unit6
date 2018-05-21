@@ -16,7 +16,7 @@ for line in file:
 #Program #2
 for line in file:
     if len(line) >= 9:
-        if line[0] = line[4] and line[0] = line[8]:
+        if line[0] == line[4] and line[0] == line[8]:
             print(line)
 """
 #Program #3
