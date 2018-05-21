@@ -12,6 +12,13 @@ for line in file:
     if line.count(letter1) >= 4:
         print(line.strip())
     
+"""
+#Program #2
+for line in file:
+    if len(line) >= 9:
+        if line[0] = line[4] and line[0] = line[8]:
+            print(line)
+"""
 #Program #3
 number3 = int(input('Enter a number: '))
 letter3 = input('Enter a letter: ')
@@ -21,7 +28,7 @@ for line in file:
     if len(word)>0:
         if word[0] == letter3 and len(word) == number3:
             print(word)
-"""
+
 
 #Program #5
 vowelnumber = 0
@@ -38,4 +45,4 @@ for line in file:
         vowelnumber += newvowels
         word = line
 print(word)
-    
+"""
