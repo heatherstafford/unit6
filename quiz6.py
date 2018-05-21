@@ -11,8 +11,8 @@ letter1 = input('Enter a letter: ')
 for line in file:
     if line.count(letter1) >= 4:
         print(line.strip())
-    
-"""
+
+
 #Program #2
 word = ''
 for line in file:
@@ -21,7 +21,7 @@ for line in file:
             word = line.strip()
 print(word)
 
-"""
+
 #Program #3
 number3 = int(input('Enter a number: '))
 letter3 = input('Enter a letter: ')
