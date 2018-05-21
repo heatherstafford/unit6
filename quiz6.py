@@ -24,11 +24,10 @@ for line in file:
 """
 
 #Program #5
-
+vowelnumber = 0
 word = ''
 
 for line in file:
-    vowelnumber = 0
     avowel = line.count('a')
     evowel = line.count('e')
     ivowel = line.count('i')
